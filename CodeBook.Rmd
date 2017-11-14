@@ -1,0 +1,25 @@
+---
+title: "Code Book"
+author: "Stephan Bartelheim"
+date: "November 6, 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#Truncated Human Activity Recognition Using Smartphones Data Set
+
+The original full data set is from:
+
+Jorge L. Reyes-Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) and Xavier Parra(2)
+1 - Smartlab - Non-Linear Complex Systems Laboratory
+DITEN - Università degli Studi di Genova, Genoa (I-16145), Italy.
+2 - CETpD - Technical Research Centre for Dependency Care and Autonomous Living
+Universitat Politècnica de Catalunya (BarcelonaTech). Vilanova i la Geltrú (08800), Spain
+activityrecognition '@' smartlab.ws 
+
+The original data set contains summary statistics of accelerometer and gyroscope 3-axial measurements raw data for different subjects performing different motions. Of those summary statistics only the mean and standard deviation values were subsetted.
+Variable names are added from a separate file and slightly simplified by dropping some brackets. Since every variable name has to convey information on method used (t or f), device used (Acc or Gyr), summary statistic (mean or std) and direction (X, Y or Z) the names remain rather "heavy". Further two factor variables are added to the table providing information which subject (subject) performed which activity (activity). Lastly the data is ordered by activity and subject.
+
