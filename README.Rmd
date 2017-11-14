@@ -1,10 +1,4 @@
----
-title: "README"
-author: "Stephan Bartelheim"
-date: "November 6, 2017"
-output: html_document
----
 
-##Getting and Cleaning Data Assignment
+**Getting and Cleaning Data Assignment**
 
 The __*Getting and Cleaning assignment.R*__ script downloads and unzips the required raw data and outputs two data frames: one called __*data*__ containing the tidied molten data, the other called __*data_means*__ containing the measurement means by subject and activity. The *data*-set is provided here in csv.
